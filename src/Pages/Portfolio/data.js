@@ -8,6 +8,12 @@ const data = [
         link : 'https://fujikura-uruka-fansite.vercel.app/'
     },
     {
+        img : require('./Images/hololivequiz.PNG'),
+        title : 'Hololive Quiz App',
+        description : <p>Short 4 question quiz web application on specific Hololive members.<br/>Developed using HTML, CSS, and JS.</p>,
+        link : 'https://hololivequizapp.vercel.app/'
+    },
+    {
         img : require('./Images/scionwebsite.PNG'),
         title : 'Scion Automotive Website',
         description : <p>Informative website on the Scion automotive brand.
@@ -29,7 +35,6 @@ const data = [
         description : <p>Fictional website for a bank. First website developed using React and Bootstrap. </p>,
         link : 'https://elysium-bank-website.vercel.app/'
     },
-    
 ];
 
 export default data;
