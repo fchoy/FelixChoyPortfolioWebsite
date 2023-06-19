@@ -1,0 +1,14 @@
+#header-text{
+    font-family: 'Inconsolata', sans-serif;
+}
+
+#nav-link{
+    text-decoration: underline;
+    text-decoration-color : transparent;
+    text-underline-offset: 0.5rem;
+    transition : 0.25s; 
+}
+
+#nav-link:hover{
+    text-decoration-color : inherit;
+}

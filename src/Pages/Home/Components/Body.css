@@ -1,0 +1,36 @@
+.home-body-container{
+    min-height: 100%;
+}
+
+.body-left-container{
+    font-family : 'Inconsolata';
+    height : 70vh;
+}
+
+.body-right-container{
+    height : 70vh;
+}
+
+.body-right-container-image{
+    height : 100%;
+}
+
+.github-image:hover{
+    opacity : 0.8;
+}
+
+@media screen and (max-width: 576px){
+    .body-left-container{
+        height : 50vh;
+    }
+
+    .body-right-container{
+        height : 50vh;
+    }
+
+    .body-right-container-image{
+        height : 75%;
+        width : auto; 
+    }
+    
+}

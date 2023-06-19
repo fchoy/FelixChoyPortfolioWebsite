@@ -1,0 +1,22 @@
+.about-body-h1-text{
+    text-decoration: 2px solid underline;
+    text-underline-offset: 10%;
+
+}
+
+.about-body-unordered-list-container{
+    background-color: rgb(245, 245, 245);
+}
+
+@media screen and (max-width : 1199px){
+    .about-me-unordered-list{
+        border-bottom: 1px solid black;
+        padding-bottom : 1.4rem;
+    }
+
+    .about-me-unordered-list:last-child{
+        border-bottom : none;
+        padding-bottom : 0;
+    }
+}
+
