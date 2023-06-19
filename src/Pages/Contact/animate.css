@@ -1,0 +1,30 @@
+.animated{
+    animation : transitionIn 0.75s;
+}
+
+.animated-delay-one{
+    opacity : 0;
+    animation : transitionIn ease-in 0.5s;
+    animation-delay: 0.4s;
+    animation-fill-mode: forwards; /*Keeps the CSS from the last keyframe onward*/ 
+}
+
+.animated-delay-two{
+    opacity : 0;
+    animation : transitionIn ease-in 0.5s;
+    animation-delay: .8s;
+    animation-fill-mode: forwards; /*Keeps the CSS from the last keyframe onward*/ 
+}
+
+
+@keyframes transitionIn{
+    from {
+        opacity : 0;
+        transform : translateY(-10px);
+    }
+    
+    to{
+        opacity : 1;
+        transform : translateY(0px);
+    }
+}

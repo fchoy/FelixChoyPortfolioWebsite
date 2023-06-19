@@ -1,10 +1,11 @@
 import React from 'react'
 import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap'
 import '../Components/Header.css'
+import '../animate.css'
 
 const Header = () => {
   return (
-    <Container fluid>
+    <Container fluid className="animated">
         <a href="/" className="text-dark" style={{textDecoration : "none"}}><h1 className="text-center mt-5" id='header-text'>Felix Choy</h1></a>
         <Navbar>
           <Container fluid>

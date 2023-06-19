@@ -1,0 +1,47 @@
+.animated-delay-one{
+    opacity : 0;
+    animation : transitionIn ease-in 0.75s;
+    animation-delay: 0.35s;
+    animation-fill-mode: forwards; /*Keeps the CSS from the last keyframe onward*/ 
+}
+
+.animated-delay-two{
+    opacity : 0;
+    animation : transitionIn ease-in 0.75s;
+    animation-delay: 0.7s;
+    animation-fill-mode: forwards; /*Keeps the CSS from the last keyframe onward*/ 
+}
+
+.animated-delay-three{
+    opacity : 0;
+    animation : transitionIn ease-in 0.75s;
+    animation-delay: 0.9s;
+    animation-fill-mode: forwards; /*Keeps the CSS from the last keyframe onward*/ 
+}
+
+.animated-delay-four{
+    opacity : 0;
+    animation : transitionIn ease-in 0.75s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards; /*Keeps the CSS from the last keyframe onward*/ 
+}
+
+.animated-delay-five{
+    opacity : 0;
+    animation : transitionIn ease-in 0.75s;
+    animation-delay: 1.1s;
+    animation-fill-mode: forwards; /*Keeps the CSS from the last keyframe onward*/ 
+}
+
+
+@keyframes transitionIn{
+    from {
+        opacity : 0;
+        transform : translateY(-10px);
+    }
+    
+    to{
+        opacity : 1;
+        transform : translateY(0px);
+    }
+}
