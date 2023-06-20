@@ -3,6 +3,10 @@ import { Container } from 'react-bootstrap'
 import '../Components/Body.css'
 import '../animate.css'
 
+const experiencedIn = ['HTML', 'CSS', 'Javascript', 'React.js', 'Bootstrap', 'Styled Components', 'TailwindCSS'];
+const prevKnowledge = ['C++', 'Java', 'JSP/Servlets', 'Git/Github'];
+const basicKnowledge = ['Node.js', 'Express.js', 'MongoDB', 'Python'];
+
 const Body = () => {
   return (
     <Container fluid className="col-lg-12 d-flex flex-column align-items-center mt-3 about-body-container">
@@ -15,28 +19,29 @@ const Body = () => {
         <Container fluid className="col-lg-11 d-flex flex-column flex-xl-row justify-content-evenly mt-3 pt-3 pb-3 text-dark about-body-unordered-list-container animated-delay-three">
             <ul className="text-center about-me-unordered-list animated-delay-three">
                 <h2>I am experienced in : </h2>
-                <li className="fs-5">HTML</li>
-                <li className="fs-5">CSS</li>
-                <li className="fs-5">Javascript</li>
-                <li className="fs-5">React.js</li>
-                <li className="fs-5">Bootstrap</li>
-                <li className="fs-5">Styled Components</li>
+                {
+                    experiencedIn.map((item) => {
+                        return <li className="fs-5">{item}</li>
+                    })
+                }
             </ul>
 
             <ul className="text-center about-me-unordered-list animated-delay-four">
                 <h2>I have previous knowledge in : </h2>
-                <li className="fs-5">C++</li>
-                <li className="fs-5">Java</li>
-                <li className="fs-5">JSP/Servlets</li>
-                <li className="fs-5">Git/Github</li>
+                {
+                    prevKnowledge.map((item) => {
+                        return <li className="fs-5">{item}</li>
+                    })
+                }
             </ul>
 
             <ul className="text-center about-me-unordered-list animated-delay-five">
                 <h2>I have basic knowledge in : </h2>
-                <li className="fs-5">Node.js</li>
-                <li className="fs-5">Express.js</li>
-                <li className="fs-5">MongoDB</li>
-                <li className="fs-5">Python</li>
+                {
+                    basicKnowledge.map((item) => {
+                        return <li className="fs-5">{item}</li>
+                    })
+                }
             </ul>
         </Container>
     </Container>
