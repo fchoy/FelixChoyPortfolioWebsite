@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -9,7 +9,7 @@ import '../animate.css'
 
 const PortfolioCardGroup = () => {
   return (
-    <Row xs={1} xl={2} className="g-4 col-xxl-6 col-lg-7 col-md-8 col-sm-10 col-12 m-auto mb-4">
+    <Row xs={1} xl={2} className="g-4 col-lg-7 col-md-8 col-sm-10 col-12 m-auto mb-4">
       {Array.from({ length: data.length }).map((_, idx) => (
         <Col key={idx}>
           <Card className="text-center portfolio-card animated-delay" style={{animationDelay: `${data[idx].animationDelayValue}s`}}>
