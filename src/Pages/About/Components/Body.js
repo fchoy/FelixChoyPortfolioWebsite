@@ -4,7 +4,7 @@ import '../Components/Body.css'
 import '../animate.css'
 
 const experiencedIn = ['HTML', 'CSS', 'Javascript', 'React.js', 'Bootstrap', 'Styled Components', 'TailwindCSS'];
-const prevKnowledge = ['C++', 'Java', 'JSP/Servlets', 'Git/Github'];
+const prevKnowledge = ['C++', 'Java', 'JSP/Servlets', 'Git/Github', 'MySQL'];
 const basicKnowledge = ['Node.js', 'Express.js', 'MongoDB', 'Python'];
 
 const Body = () => {
@@ -27,7 +27,7 @@ const Body = () => {
             </ul>
 
             <ul className="text-center about-me-unordered-list animated-delay-four">
-                <h2>I have previous knowledge in : </h2>
+                <h2>I have previously worked with : </h2>
                 {
                     prevKnowledge.map((item) => {
                         return <li className="fs-5">{item}</li>
