@@ -2,7 +2,7 @@ const data = [
     {
         img : require('./Images/baewebsite.PNG'),
         title : 'Hakos Baelz Fansite',
-        description : <p>Fully responsive fansite developed for Hololive Talent Hakos Baelz.<br/>Developed using React.js, TailwindCSS, and Slider.js, and React-Router.</p>,
+        description : <p>Fully responsive fansite developed for Hololive Talent Hakos Baelz.<br/>Developed using React.js, Tailwind CSS, Slider.js, and React-Router.</p>,
         link : 'https://hakos-baelz-fansite.vercel.app/',
         buttonText : "Website Demo",
         animationDelayValue : 0.35
