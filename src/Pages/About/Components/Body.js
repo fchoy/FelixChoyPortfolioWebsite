@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap'
 import '../Components/Body.css'
 import '../animate.css'
 
-const experiencedIn = ['HTML', 'CSS', 'Javascript', 'React.js', 'Bootstrap', 'Styled Components', 'TailwindCSS'];
+const experiencedIn = ['HTML', 'CSS', 'Javascript', 'React.js', 'Bootstrap', 'Styled Components', 'TailwindCSS', 'Next.js'];
 const prevKnowledge = ['C++', 'Java', 'JSP/Servlets', 'Git/Github', 'MySQL'];
 const basicKnowledge = ['Node.js', 'Express.js', 'MongoDB', 'Python'];
 
