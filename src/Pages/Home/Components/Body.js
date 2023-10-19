@@ -10,7 +10,7 @@ const Body = () => {
     <Container fluid className="d-flex flex-lg-row flex-sm-column flex-column-reverse justify-content-center home-body-container mt-md-5 mt-0">
         <Container className="d-flex flex-column justify-content-center col-lg-6 col-auto text-center body-left-container h-auto animated-delay-one">
             <h1 className="mb-5">Hi I'm Felix.</h1>
-            <h5 className="mb-5">I am a front-end developer currently seeking entry level positions or freelance work.</h5>
+            <h5 className="mb-5">I am a software engineer currently working as an application developer.</h5>
             <p className="mb-5 fs-5">I like to build websites in my free time. Please check out my portfolio!</p>
             <div className="w-auto mb-5" style={{display : 'inline-block'}}>
               <a href='https://www.linkedin.com/in/felixchoy/' target='_blank' rel='noreferrer'><i class="bi bi-linkedin me-5" style={{fontSize: "3rem"}}/></a>
