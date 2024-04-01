@@ -1,5 +1,13 @@
 const data = [
     {
+        img : require('./Images/aretheylive.PNG'),
+        title : 'Are They Live?',
+        description : <p style={{fontSize : "16px"}}>Full-stack web application that allows users to track the livestreaming statuses of Youtube channels.<br/>Developed using React.js, Styled Components, Node.js, and PostgreSQL.</p>,
+        link : 'https://github.com/fchoy/aretheylive',
+        buttonText : "Github Repository",
+        animationDelayValue : 0.35
+    },
+    {
         img : require('./Images/baewebsite.PNG'),
         title : 'Hakos Baelz Fansite',
         description : <p>Fully responsive fansite developed for Hololive Talent Hakos Baelz.<br/>Developed using React.js, Tailwind CSS, Slider.js, and React-Router.</p>,
